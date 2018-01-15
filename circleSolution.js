@@ -24,7 +24,6 @@ var circleAttributes = circles
 	else if (d == 10) { returnColor = "red"; }
 	return returnColor;
 });
-undefined
 var circleAttributes = circles
 	.attr("cx", 50)
 	.attr("cy", 50)
