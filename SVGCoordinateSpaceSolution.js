@@ -1,4 +1,5 @@
 var spaceCircles = [30, 70, 110];
+
 var svgContainer = d3.select("#area2").append("svg")
 	.attr("width", 200)
 	.attr("height", 200);
