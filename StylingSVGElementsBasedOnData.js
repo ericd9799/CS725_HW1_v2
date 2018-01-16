@@ -1,7 +1,7 @@
 var circleRadii = [40, 20, 10];
 
 
-var svgContainer = d3.select("body").append("svg")
+var svgContainer = d3.select("#area1").append("svg")
 	.attr("width", 200)
 	.attr("height", 200);
 var circles = svgContainer.selectAll("circle")
