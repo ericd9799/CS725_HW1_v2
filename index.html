@@ -16,12 +16,12 @@
 		<script src="StylingSVGElementsBasedOnData.js"></script>
 	</div>
 	<div>
-	    <p>This example works by first creating an array that will hold the values for the each circle's radius. Next a SVG element is appended to the page's body.
+	    <p>This example works by first creating an array that will hold the values for the each circle's radius. Next a SVG element is appended to the div that has the id "area1".
 		The SVG element will then be appended with the SVG circles. The values from the array is binded to the SVG circle data. Up until now, circles are not displayed.
-		We only have three SVG circle elements on the page. Next, we will provide the attributes of the circle. The attributes provider are coordinates of the circle,
+		We only have three SVG circle elements on the page. Next, we will provide the attributes of the circle. The attributes provided are coordinates for where the circle will be located,
 		radius, and color. When providing the radius attribute, a function is called to use the binded data of the SVG circle element as the radius. Furthermore, to make
 		each circle a different color, a custom function was used to check the value of the binded data and assign the color accordingly. To modify each circle's radius
-		and color, I created a function that would check the value of the binded data, and assign a new radius and color to each binded value. </p>
+		and color, I used a function that would check the value of the binded data, and assign a new radius and color to each circle. </p>
 	</div>
 	<div id="area2">
 	    <h1>SVG Coordinate Space - SVG Element</h1>
@@ -29,16 +29,16 @@
 		<script src="SVGCoordinateSpaceSolution.js"></script>
 	</div>
 	<div>
-	    <p>This example works by first creating an array that will hold the values for each of the circle's location. Next a SVG element is appeneded to the page's body.
+	    <p>This example works by first creating an array that will hold the values for each of the circle's location. Next a SVG element is appeneded to the div that has the id "area2".
 		The SVG element is then appeneded with SVG circles, and the values from the array is binded to the circle element. Next the attribute of the circles are provided.
 		A function is called to use the binded data of the circle element as the X and Y coordinate, the fill of each circle is assigned by checking the value of the binded
-		data. To be able to move the circles to a new position, I created the array spaceCircles again with new values. Then I selected all the SVG circle elements and binded
-		the new values from spaceCircles. When setting the attribute, I used the function to use the value of the binded data to set the X and Y coordinate. Finally, to adjust
-		the color, a function was created to check the value of the binded data, and adjust the fill accordingly.</p>
+		data. To be able to move the circles to a new position, I created the array spaceCircles with new values. Then I selected all the SVG circle elements and binded
+		the new values from spaceCircles to the elements. When setting the attribute, I used the function to use the value of the binded data to set the X and Y coordinate. Finally, to adjust
+		the color, a function was used to check the value of the binded data, and adjust the fill accordingly.</p>
 	</div>
 	<div>
 		<p>The SVG coordinate system differs from the typical math coordinate system in that the 0,0 coordinate is in the top-left hand corner rather than bottom-left.
-		Just like the typical math coordinate system, the X coordinate grows from left to right, but the Y coordinate grows from top to bottom. Instead of moving up the graph
+		Just like the typical math coordinate system, the X coordinate grows from left to right, but the Y coordinate grows from top to bottom. Thus, instead of moving up the graph
 		as the Y coordinate increases, we would travse downwards as the Y coordinate increases. 
 		</p>
 	</div>
